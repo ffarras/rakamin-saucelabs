@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/java/cucumber/features",
         glue = "cucumber.stepDef",
         tags = "@TDD",
-        plugin = {"html:target/HTML_report.html"}
+        plugin = {"html:src/test/java/cucumber/HTML_report.html"}
 )
 public class runLogin {
 }
